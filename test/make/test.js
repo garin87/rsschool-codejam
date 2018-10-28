@@ -6,13 +6,11 @@ function sum(a, b) {
   return a + b;
 };
 
-
 describe('make', () => {
   it('test 1', () => {
     const check = make(15)(34, 21, 666)(41)(sum);
     assert.deepEqual(check, 777);
   });
-
   it('test 2', () => {
     const check = make(15,34,5,6,8)(-3, 21)(-1)(sum);
     assert.deepEqual(check, 85);
