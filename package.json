@@ -1,0 +1,26 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garin87/rsschool-codejam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garin87/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/garin87/rsschool-codejam#readme",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}
