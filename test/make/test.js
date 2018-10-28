@@ -19,7 +19,6 @@ describe('make', () => {
     const check = make(15,34,5,6,sum);
     assert.deepEqual(check, 60);
   }); 
-
   it('test 4', () => {
     const check = make(1)(2)(3)(4)(10,sum);
     assert.deepEqual(check, 20);
